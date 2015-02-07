@@ -1,0 +1,20 @@
+ul {
+  list-style: none; }
+
+ul.digits li {
+  margin-bottom: 5px; }
+
+ul.buttons li {
+  display: inline;
+  margin-left: 5px; }
+
+#result {
+  background-color: transparent;
+  border: 0px solid;
+  font-size: 17px; }
+
+input {
+  font: 15px Palatino, serif; }
+
+p.result {
+  margin-left: 37px; }

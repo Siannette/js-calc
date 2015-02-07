@@ -3,39 +3,44 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Calculator</title>
-	<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
 
 <script>
-function mult()
-{
-result.value=firstnumber.value*secondnumber.value;
-}
-function div()
-{
-result.value=firstnumber.value/secondnumber.value;
-}
+	function mult()
+	{
+	result.value=firstnumber.value*secondnumber.value;
+	}
+	function div()
+	{
+	result.value=firstnumber.value/secondnumber.value;
+	}
 </script>
 </head>
 
 <body>
 	<form action="#" method="get">
-		<ul class="calc">
+		<ul class="digits">
 			<li>
-				<label for="firstnumber">1st Number: </label>
-				<input type="text" id="firstnumber" name="firstnumber" />
+				<label for="firstnumber">1st Number : </label>
+				<input type="text" id="firstnumber" name="firstnumber"/>
 			</li>
 			<li>
 				<label for="secondnumber">2nd Number: </label>
 				<input type="text" id="secondnumber" name="secondnumber" />
 			</li>
 		</ul>
-		<input type="button" name= "Multiply" value="Multiply"  onclick="mult()"/>
-		<input type="button" name= "Divide" value="Divide"  onclick="div()"/>
-		<p> The Result Is:</p>
+		<ul class="buttons">
+			<li><input type="button" name= "Multiply" value="Multiply"  onclick="mult()"/>
+			</li>
+			<li><input type="button" name= "Divide" value="Divide"  onclick="div()"/>
+			</li>
+		</ul>
+		<p class="result"> The Result Is:</p>
+
 		<input type="text" id="result" name="Result" />
 	</form>
 
 
-
+<img src="789.png">
 
 </body>
